@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supermarket Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff; /* Light blue background */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #32cd32; /* Lime Green */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #228b22; /* Forest Green */
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .content {
+            padding: 20px;
+        }
+        .category-list, .offer-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .category-list li, .offer-list li {
+            background-color: #e0e0e0;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .category-list li img, .offer-list li img {
+            max-width: 100px;
+            margin-right: 15px;
+            vertical-align: middle;
+        }
+        footer {
+            background-color: #32cd32; /* Lime Green */
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Panimalar Supermarket</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">Offers</a>
+    <a href="#">Contact</a>
+</nav>
+
+<div class="content">
+    <h2>Categories</h2>
+    <ul class="category-list">
+        <li>
+            <img src="path/to/vegetables.jpg" alt="Vegetables">
+            Vegetables & Fruits
+        </li>
+        <li>
+            <img src="path/to/dairy.jpg" alt="Dairy Products">
+            Dairy Products
+        </li>
+        <li>
+            <img src="path/to/snacks.jpg" alt="Snacks">
+            Snacks & Beverages
+        </li>
+    </ul>
+
+    <h2>Special Offers</h2>
+    <ul class="offer-list">
+        <li>
+            <img src="path/to/discount.jpg" alt="Discount Offer">
+            10% off on all vegetables this weekend!
+        </li>
+        <li>
+            <img src="path/to/free.jpg" alt="Buy One Get One Free">
+            Buy one get one free on selected snacks!
+        </li>
+    </ul>
+
+    <h2>Subscribe to our Newsletter</h2>
+    <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</div>
+
+<footer>
+    <p>XYZ Supermarket &copy; 2024</p>
+</footer>
+
+</body>
+</html>
